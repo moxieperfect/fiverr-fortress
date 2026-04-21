@@ -1,0 +1,7 @@
+2026/04/16-07:46:52.851 89bc Reusing MANIFEST C:\Users\moxieprime\fiverr-bot-engine\profiles\frozen_01\Default\IndexedDB\https_www.fiverr.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/16-07:46:52.853 89bc Recovering log #6
+2026/04/16-07:46:52.855 89bc Reusing old log C:\Users\moxieprime\fiverr-bot-engine\profiles\frozen_01\Default\IndexedDB\https_www.fiverr.com_0.indexeddb.leveldb/000006.log 
+2026/04/16-07:47:05.491 79e8 Level-0 table #11: started
+2026/04/16-07:47:05.499 79e8 Level-0 table #11: 4736 bytes OK
+2026/04/16-07:47:05.503 79e8 Delete type=0 #6
+2026/04/16-07:47:05.505 79e8 Manual compaction at level-0 from '\x00\x07\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x08\x00\x00\x00' @ 0 : 0; will stop at (end)

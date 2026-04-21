@@ -1,0 +1,8 @@
+2026/04/16-07:19:51.178 44f8 Creating DB C:\Users\moxieprime\fiverr-bot-engine\profiles\account_01\Default\IndexedDB\https_www.fiverr.com_0.indexeddb.leveldb since it was missing.
+2026/04/16-07:19:51.212 44f8 Reusing MANIFEST C:\Users\moxieprime\fiverr-bot-engine\profiles\account_01\Default\IndexedDB\https_www.fiverr.com_0.indexeddb.leveldb/MANIFEST-000001
+2026/04/16-07:20:00.452 44f8 Level-0 table #5: started
+2026/04/16-07:20:00.488 44f8 Level-0 table #5: 1528 bytes OK
+2026/04/16-07:20:00.494 44f8 Delete type=0 #3
+2026/04/16-07:20:00.495 44f8 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/16-07:20:00.731 a2d4 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
+2026/04/16-07:20:00.732 a2d4 Manual compaction at level-1 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)

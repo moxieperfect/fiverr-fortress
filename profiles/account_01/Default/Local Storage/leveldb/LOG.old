@@ -1,0 +1,6 @@
+2026/04/16-07:23:11.759 4bcc Reusing MANIFEST C:\Users\moxieprime\fiverr-bot-engine\profiles\account_01\Default\Local Storage\leveldb/MANIFEST-000001
+2026/04/16-07:23:11.779 4bcc Recovering log #3
+2026/04/16-07:23:11.790 4bcc Reusing old log C:\Users\moxieprime\fiverr-bot-engine\profiles\account_01\Default\Local Storage\leveldb/000003.log 
+2026/04/16-07:29:52.675 4e84 Level-0 table #5: started
+2026/04/16-07:29:52.694 4e84 Level-0 table #5: 67513 bytes OK
+2026/04/16-07:29:52.705 4e84 Delete type=0 #3
