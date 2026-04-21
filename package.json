@@ -2,8 +2,9 @@
   "name": "fiverr-bot-engine",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "fiverr-bot.js",
   "scripts": {
+    "start": "node fiverr-bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
