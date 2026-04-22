@@ -61,10 +61,54 @@ async function dailyRoutine() {
 
 // Run it
 // Run it once, then keep alive
+async function dailyRoutine() {
+    const { browser, page } = await launchSecureBrowser(ACCOUNT_CONFIG);
+
+    console.log('🌍 Navigating to Fiverr...');
+    await page.goto(ACCOUNT_CONFIG.startUrl, { waitUntil: 'networkidle2' });
+
+    // Simple human-like behavior: scroll a bit
+    await page.evaluate(() => window.scrollBy(0, 300));
+    await new Promise(r => setTimeout(r, 2000 + Math.random() * 3000));
+
+    console.log('✅ Routine completed. Keeping browser open...');
+    // DO NOT close browser - keep it alive
+}
+
+// Run once and stay alive
+async function dailyRoutine() {
+    const { browser, page } = await launchSecureBrowser(ACCOUNT_CONFIG);
+
+    console.log('🌍 Navigating to Fiverr...');
+    await page.goto(ACCOUNT_CONFIG.startUrl, { waitUntil: 'networkidle2' });
+
+    // Simple human-like behavior: scroll a bit
+    await page.evaluate(() => window.scrollBy(0, 300));
+    await new Promise(r => setTimeout(r, 2000 + Math.random() * 3000));
+
+    console.log('✅ Routine completed. Keeping browser open...');
+    // DO NOT close browser - keep it alive
+}
+
+// Run once and stay alive
+async function dailyRoutine() {
+    const { browser, page } = await launchSecureBrowser(ACCOUNT_CONFIG);
+
+    console.log('🌍 Navigating to Fiverr...');
+    await page.goto(ACCOUNT_CONFIG.startUrl, { waitUntil: 'networkidle2' });
+
+    // Simple human-like behavior: scroll a bit
+    await page.evaluate(() => window.scrollBy(0, 300));
+    await new Promise(r => setTimeout(r, 2000 + Math.random() * 3000));
+
+    console.log('✅ Routine completed. Keeping browser open...');
+    // DO NOT close browser - keep it alive
+}
+
+// Run once and stay alive
 async function keepAlive() {
     await dailyRoutine();
     console.log('✅ Initial routine done. Keeping process alive...');
-    // Stay alive forever (or until Railway stops us)
     setInterval(() => {
         console.log('💓 Heartbeat - bot is still running');
     }, 60000); // Log a heartbeat every minute
