@@ -16,7 +16,7 @@ const ACCOUNT_CONFIG = {
 
 async function launchSecureBrowser(config) {
     const launchOptions = {
-        headless: "new", // <-- FIXED: Added quotes around "new"
+        headless: false, // <-- FIXED: Added quotes around "new"
         userDataDir: config.profilePath, // Persistent profile
         args: [
             '--no-sandbox',
@@ -60,4 +60,14 @@ async function dailyRoutine() {
 }
 
 // Run it
-dailyRoutine().catch(console.error);
+// Run it once, then keep alive
+async function keepAlive() {
+    await dailyRoutine();
+    console.log('✅ Initial routine done. Keeping process alive...');
+    // Stay alive forever (or until Railway stops us)
+    setInterval(() => {
+        console.log('💓 Heartbeat - bot is still running');
+    }, 60000); // Log a heartbeat every minute
+}
+
+keepAlive().catch(console.error);
