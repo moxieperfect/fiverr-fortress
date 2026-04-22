@@ -16,7 +16,7 @@ const ACCOUNT_CONFIG = {
 
 async function launchSecureBrowser(config) {
     const launchOptions = {
-        headless: false, // <-- FIXED: Added quotes around "new"
+        headless: "new", // <-- FIXED: Added quotes around "new"
         userDataDir: config.profilePath, // Persistent profile
         args: [
             '--no-sandbox',
